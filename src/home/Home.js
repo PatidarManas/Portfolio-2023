@@ -439,8 +439,9 @@ const Home = () => {
                         <p className='font-light text-base lg:text-xl border-l-2	pl-2 border-slate-300	text-slate-400	'>Pronect is your one-stop solution for college project management. Upload, explore, and collaborate seamlessly, while ensuring academic integrity with built-in plagiarism checks. Stay informed with notifications and enjoy robust admin features, including user management and communication tools for a truly comprehensive experience in academia.</p>
 
                         <div className='flex gap-10 mt-10 pl-20 text-xl font-thin '>
-                            <div className='cursor-pointer border-b-2 border-cyan-800	p-2'>Coming Soon! </div>
-                            {/* <a href='http' className='cursor-pointer border-b-2 border-cyan-800	 p-2'>Github </a> */}
+                            {/* <div className='cursor-pointer border-b-2 border-cyan-800	p-2'></div> */}
+                            <a href='https://pronect.vercel.app/' className='cursor-pointer border-b-2 border-cyan-800	 p-2'>View site</a>
+                            <a href='https://github.com/PatidarManas/Pronect' className='cursor-pointer border-b-2 border-cyan-800	 p-2'>Github </a>
 
                         </div>
 
