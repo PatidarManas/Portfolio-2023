@@ -101,7 +101,7 @@ const Home = () => {
             }
         }
         else if (value >= 4 && value < 5.4) {
-            setpage("Newtube")
+            setpage("Pronect")
             document.getElementById("welcome").style.display = "none"
             document.getElementById("about").style.display = "none"
             document.getElementById("projects").style.display = "none"
@@ -291,7 +291,7 @@ const Home = () => {
                         <div>About</div>
                         <div>Projects</div>
                         <div>Fine</div>
-                        <div>Newtube</div>
+                        <div>Pronect</div>
                         <div>Crevate</div>
                         <div>More</div>
                     </div>
@@ -375,9 +375,9 @@ const Home = () => {
 
                         </div>
                         <div className='hidden lg:block relative font-light text-xl m-0 pl-2 border-2 mt-4 rounded-lg border-slate-800 text-slate-400 mr-20	'>
-                            <div className='font-semibold text-3xl w-fit pl-2 pt-2'>Newtube</div>
+                            <div className='font-semibold text-3xl w-fit pl-2 pt-2'>Pronect</div>
                             <div className='flex flex-wrap mt-2 mb-2 gap-4 pl-2'>
-                                Seamless Video Streaming: Watch, Upload, and More!
+                            Empower collaboration and showcase projects on our platform, Pronect.
                             </div>
                             <button className='hidden lg:block absolute top-2 right-2 bg-transparent hover:bg-white text-white text-base font-medium hover:text-black py-2 px-4 border border-white hover:border-transparent rounded' onClick={() => {
                             document.getElementById("projects").style.display = "none"
@@ -435,11 +435,11 @@ const Home = () => {
                 <div id='newtube' className='lg:hidden flex mt-10 lg:mt-24 mx-4 lg:mx-10'>
 
                     <div className='flex flex-col w-full lg:w-10/12'>
-                        <div className='font-thin text-3xl lg:text-5xl border-b-2 w-fit p-2 mb-4 	pl-2 border-slate-700'>Newtube</div>
-                        <p className='font-light text-base lg:text-xl border-l-2	pl-2 border-slate-300	text-slate-400	'>Seamless Video Streaming: Our advanced platform, built on the powerful MERN stack, offers an exceptional video streaming experience. With a user-friendly interface, users can effortlessly watch and upload videos. To ensure a safe environment, our platform includes robust user authorization and age restriction features. Engage with content through comments and access insightful video analytics for creators. Moreover, admin routes enable efficient content management and moderation. Enjoy an all-in-one video streaming platform designed to cater to your entertainment needs!</p>
+                        <div className='font-thin text-3xl lg:text-5xl border-b-2 w-fit p-2 mb-4 	pl-2 border-slate-700'>Pronect</div>
+                        <p className='font-light text-base lg:text-xl border-l-2	pl-2 border-slate-300	text-slate-400	'>Pronect is your one-stop solution for college project management. Upload, explore, and collaborate seamlessly, while ensuring academic integrity with built-in plagiarism checks. Stay informed with notifications and enjoy robust admin features, including user management and communication tools for a truly comprehensive experience in academia.</p>
 
                         <div className='flex gap-10 mt-10 pl-20 text-xl font-thin '>
-                            <div className='cursor-pointer border-b-2 border-cyan-800	cursor-pointer p-2'>Coming Soon! </div>
+                            <div className='cursor-pointer border-b-2 border-cyan-800	p-2'>Coming Soon! </div>
                             {/* <a href='http' className='cursor-pointer border-b-2 border-cyan-800	 p-2'>Github </a> */}
 
                         </div>
@@ -489,7 +489,7 @@ const Home = () => {
                         {/* <p className='font-light text-xl border-l-2	pl-2 border-slate-300	text-slate-400	'>Connect, Post, Like, and More: Welcome to Your Personal Social Platform! Built on the robust MERN stack, our platform offers seamless connectivity and social engagement. Enjoy the freedom to connect with friends, post updates, and share your interests effortlessly. With top-notch user authorization, your privacy is secure. Experience a href='http' dynamic timeline tailored to your preferences, keeping you updated with the latest from your network. Join us now and discover a href='http' personalized social experience like never before!</p> */}
                         <div className='flex flex-col pl-2 text-xl'>✅ Participated In various hackathons
                             <div className='pl-8 text-base mt-1 text-slate-400 cursor-pointer'>↪️ Solving for India Hackathon(GFG and Google Cloud) </div>
-                            <div className='pl-8 text-base mt-1 text-slate-400 cursor-pointer'>↪️ Let's hack Parul(Devfolio ,Quine) </div>
+                            <div className='pl-8 text-base mt-1 text-slate-400 cursor-pointer'>↪️ Let's hack Parul(Devfolio ,Quine), Vadodara Hackathon 4.0 </div>
                             <div className='pl-8 text-base mt-1 text-slate-400 cursor-pointer'>↪️ More!! </div>
                         </div>
                         <div className='flex flex-col pl-2 text-xl'>✅ Coding Platform Ratings
